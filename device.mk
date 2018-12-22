@@ -230,6 +230,10 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml
 
+# Insmod files
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/init.insmod.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.cfg
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc \
@@ -312,6 +316,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    init.insmod.sh \
     init.class_main.sh \
     init.msm.usb.configfs.rc \
     init.qcom.early_boot.sh \

@@ -15,6 +15,10 @@ ro.boot.hwc                 u:object_r:vendor_camera_prop:s0
 vendor.camera.              u:object_r:vendor_camera_prop:s0
 vidhance.                   u:object_r:vendor_camera_prop:s0
 
+# Insmod
+vendor.all.modules.ready                        u:object_r:vendor_device_prop:s0
+vendor.all.devices.ready                        u:object_r:vendor_device_prop:s0
+
 # Audio
 vendor.audio.adm.buffering.ms                   u:object_r:vendor_audio_prop:s0
 vendor.audio.volume.listener.dump               u:object_r:vendor_audio_prop:s0
