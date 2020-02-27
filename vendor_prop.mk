@@ -56,6 +56,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.c2inputsurface=-1
 
+# Enable avgqp
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.qc2.venc.avgqp.enable=1
+
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.enable_fb_ubwc=1 \
