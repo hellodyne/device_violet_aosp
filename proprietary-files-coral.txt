@@ -63,7 +63,9 @@ vendor/lib64/hw/vulkan.msmnile.so:vendor/lib64/hw/vulkan.sm6150.so
 # Media C2 - from coral-user 10 QQ1B.200205.002 6084387-release-keys
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
+vendor/lib/libmedia_ecoservice.so
 vendor/lib/libqcodec2.so
+vendor/lib64/libmedia_ecoservice.so
 vendor/lib64/libqcodec2.so
 
 # Media - from coral-user 10 QQ1B.200205.002 6084387-release-keys
