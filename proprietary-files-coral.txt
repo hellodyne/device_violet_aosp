@@ -1,4 +1,3 @@
-
 # CNE - from coral-user 10 QQ1B.200205.002 6084387-release-keys
 -vendor/app/CneApp/CneApp.apk
 product/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
@@ -255,13 +254,20 @@ vendor/lib64/libqmi_vs-google-1.so
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
 -product/app/atfwd/atfwd.apk
 -product/app/datastatusnotification/datastatusnotification.apk
+-product/app/uimremoteclient/uimremoteclient.apk
+-product/app/uimremoteserver/uimremoteserver.apk
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -vendor/app/IWlanService/IWlanService.apk
+product/etc/permissions/UimService.xml
+product/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml
 product/etc/permissions/embms.xml
 product/etc/permissions/qcrilhook.xml
 product/etc/permissions/telephonyservice.xml
+product/etc/permissions/uimremoteclient.xml
+product/etc/permissions/uimremoteserver.xml
 product/framework/QtiTelephonyServicelibrary.jar
 product/framework/qcrilhook.jar
+product/framework/uimremoteserverlibrary.jar
 vendor/bin/ATFWD-daemon
 vendor/bin/hw/qcrild
 vendor/bin/netmgrd
