@@ -540,18 +540,6 @@ vendor/lib64/libkeymasterprovision.so|09a61b1a36e28b9d5c485dfa7a290b3923abfb04
 vendor/lib64/libkeymasterutils.so|679491d7b415f45469990380e4fd61e4bfbc445e
 vendor/lib64/libqtikeymaster4.so|08e3341250f7cec2c0cd9b203bacd3bccf79e8f5
 
-# Latency - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
-product/framework/vendor.qti.latency-V2.0-java.jar|d345e24271b83faecdb1abe1361db812fae0646f
-product/lib/vendor.qti.hardware.data.latency@1.0.so|8a099459d7412b75b1b803cec2c2d3293f759198
-product/lib/vendor.qti.latency@2.0.so|870239e6f95fe3a21696d48354b636c74ff4bd09
-product/lib64/vendor.qti.hardware.data.latency@1.0.so|53794a8d4dfeb0fbd233a4b128749a06d515c3f7
-product/lib64/vendor.qti.latency@2.0.so|0144eec541989f450695ec8cbdd595df4009fe1a
-vendor/lib/vendor.qti.hardware.data.latency@1.0.so|35cfc140a8852d1ae054f6e0f66ad1c896f0875f
-vendor/lib/vendor.qti.latency@2.0.so|c6b9efda9c2e39fd33bc42e6aee745bd6ee176c8
-vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|ff7a319e51ddd4de14af28a84f7bca5e82547f6e
-vendor/lib64/vendor.qti.latency@2.0.so|91a8b05b20485057ee9f42c55ce70207ef6af761
-
 # Listen - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 vendor/lib/libadpcmdec.so|8dc9036e15aa62a85becfda6eb4865de4308ce33
 vendor/lib/libgcs-calwrapper.so|fa8ba4c39920f8ab1ffd8bb84a1b5d3953b377c5
