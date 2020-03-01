@@ -155,15 +155,10 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     gralloc.sm6150 \
     hwcomposer.sm6150 \
-    lights.sm6150 \
-    libdisplayconfig \
-    libdisplayconfig.vendor \
-    libqdMetaData \
-    libqdMetaData.system \
     libtinyxml \
     libvulkan \
+    lights.sm6150 \
     memtrack.sm6150 \
-    vendor.display.config@1.3 \
     vendor.qti.hardware.display.allocator-service
 
 PRODUCT_PACKAGES += \
