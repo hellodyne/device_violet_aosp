@@ -174,6 +174,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libc2dcolorconvert
 
+# Xaac decoder
+PRODUCT_PACKAGES += \
+    libstagefright_soft_xaacdec.vendor
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
