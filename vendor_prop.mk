@@ -81,6 +81,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# Set lmkd options
+PRODUCT_PRODUCT_PROPERTIES += \
+	ro.config.low_ram=false \
+	ro.lmk.kill_heaviest_task=true \
+	ro.lmk.kill_timeout_ms=100 \
+	ro.lmk.use_minfree_levels=true \
+	ro.lmk.log_stats=true
+
 # Keystore
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore_desede=true
