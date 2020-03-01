@@ -346,7 +346,7 @@ PRODUCT_PACKAGES += \
 
 # AOT Preload
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
+    SystemUIGoogle \
     NexusLauncherRelease
 
 # Seccomp policy
