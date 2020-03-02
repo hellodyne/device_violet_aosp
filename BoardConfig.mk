@@ -107,7 +107,8 @@ DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
-# Partitions - SAR
+# Partitions - SAR/Metadata
+BOARD_USES_METADATA_PARTITION := true
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Paritions - Boot
