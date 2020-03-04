@@ -27,10 +27,6 @@
 
 #define BREATH          "breath"
 #define BRIGHTNESS      "brightness"
-#define DELAY_OFF       "delay_off"
-#define DELAY_ON        "delay_on"
-
-#define MAX_LED_BRIGHTNESS    255
 
 namespace {
 /*
@@ -75,20 +71,16 @@ static uint32_t getBrightness(const LightState& state) {
 static void handleNotification(const LightState& state) {
     uint32_t whiteBrightness = getBrightness(state);
 
-    /* Disable breathing or blinking */
+    /* Disable breathing */
     set(WHITE_LED BREATH, 0);
-    set(WHITE_LED DELAY_OFF, 0);
-    set(WHITE_LED DELAY_ON, 0);
 
     switch (state.flashMode) {
         case Flash::HARDWARE:
-            /* Breathing */  
-            set(WHITE_LED BREATH, 1);
-            break;
         case Flash::TIMED:
-            /* Blinking */
-            set(WHITE_LED DELAY_OFF, state.flashOnMs);
-            set(WHITE_LED DELAY_ON, state.flashOffMs);
+            /* Breathing */
+            /* We don't have control over the pace of breathing */
+            /* DELAY_OFF and DELAY_ON are simply blinks, not actually breathing */
+            set(WHITE_LED BREATH, 1);
             break;
         case Flash::NONE:
         default:
