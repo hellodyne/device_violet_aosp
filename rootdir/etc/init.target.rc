@@ -196,9 +196,3 @@ service qfp-daemon /vendor/bin/qfp-daemon
     class late_start
     user system
     group system drmrpc diag input
-
-service nv_mac /vendor/bin/nv_mac
-    class late_start
-    user system
-    group system inet net_admin wifi net_raw
-    oneshot

@@ -63,10 +63,6 @@ extract "${MY_DIR}/proprietary-files-coral.txt" "${SRC}" \
 
 BLOB_ROOT="${MK_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary"
 
-patchelf --remove-needed "vendor.xiaomi.hardware.mtdservice@1.0.so" "${BLOB_ROOT}/vendor/bin/mlipayd@1.1"
-patchelf --remove-needed "vendor.xiaomi.hardware.mtdservice@1.0.so" "${BLOB_ROOT}/vendor/lib64/libmlipay.so"
-patchelf --remove-needed "vendor.xiaomi.hardware.mtdservice@1.0.so" "${BLOB_ROOT}/vendor/lib64/libmlipay@1.1.so"
-
 # Adreno
 patchelf --set-soname vulkan.sm6150.so "${BLOB_ROOT}/vendor/lib64/hw/vulkan.sm6150.so"
 patchelf --set-soname vulkan.sm6150.so "${BLOB_ROOT}/vendor/lib/hw/vulkan.sm6150.so"

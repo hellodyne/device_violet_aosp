@@ -80,13 +80,33 @@ vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
+# Bluetooth - Audio - from coral-user 10 QQ1B.200205.002 6084387-release-keys
+vendor/lib/btaudio_offload_if.so
+vendor/lib64/btaudio_offload_if.so
+
+# Bluetooth (aptX) - from coral-user 10 QQ1B.200205.002 6084387-release-keys
+product/lib64/libaptX_encoder.so
+product/lib64/libaptXHD_encoder.so
+
 # FM - from coral-user 10 QQ1B.200205.002 6084387-release-keys
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # DPM - from coral-user 10 QQ1B.200205.002 6084387-release-keys
+lib64/libdiag_system.so
 vendor/bin/dpmQmiMgr
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
+
+# Listen - from coral-user 10 QQ1B.200205.002 6084387-release-keys
+vendor/lib/libadpcmdec.so
+vendor/lib/libgcs-calwrapper.so
+vendor/lib/libgcs-ipc.so
+vendor/lib/libgcs-osal.so
+vendor/lib/libgcs.so
+vendor/lib64/libgcs-calwrapper.so
+vendor/lib64/libgcs-ipc.so
+vendor/lib64/libgcs-osal.so
+vendor/lib64/libgcs.so
 
 # Latency - from coral-user 10 QQ1B.200205.002 6084387-release-keys
 product/framework/vendor.qti.latency-V2.0-java.jar
@@ -156,7 +176,7 @@ vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
 # Graphics (Vulkan) - from coral-user 10 QQ1B.200205.002 6084387-release-keys
-vendor/lib/hw/vulkan.msmnile.so:vendor/lib64/hw/vulkan.sm6150.so
+vendor/lib/hw/vulkan.msmnile.so:vendor/lib/hw/vulkan.sm6150.so
 vendor/lib64/hw/vulkan.msmnile.so:vendor/lib64/hw/vulkan.sm6150.so
 
 # Media C2 - from coral-user 10 QQ1B.200205.002 6084387-release-keys
