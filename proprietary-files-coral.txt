@@ -216,6 +216,8 @@ vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmmosal_proprietary.so
 vendor/lib64/libswvdec.so
+vendor/lib64/vendor.qti.hardware.vpp@1.1.so
+vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 
 # Configstore - from coral-user 10 QQ1B.200205.002 6084387-release-keys
 -vendor/lib/libplatformconfig.so
