@@ -453,6 +453,15 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so
 vendor/lib64/vendor.qti.googleext.imsext@1.0.so
 vendor/lib64/vendor.qti.googleext.imsext@2.0.so
 
+# Cacert - from coral-user 10 QQ1B.200205.002 6084387-release-keys
+-vendor/app/CACertService/CACertService.apk
+vendor/lib/libcacertclient.so
+vendor/lib/libjnihelper.so
+vendor/lib/vendor.qti.hardware.cacert@1.0.so
+vendor/lib64/libcacertclient.so
+vendor/lib64/libjnihelper.so
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so
+
 # GPS - from coral-user 10 QQ1B.200205.002 6084387-release-keys
 vendor/bin/loc_launcher
 vendor/bin/xtra-daemon
@@ -467,3 +476,7 @@ vendor/lib64/libloc_api_v02.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libqdma_file_agent.so
+
+# Hotword enrollment
+-product/priv-app/HotwordEnrollmentXGoogleHEMIDELTA/HotwordEnrollmentXGoogleHEMIDELTA.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentOKGoogleHEMIDELTA/HotwordEnrollmentOKGoogleHEMIDELTA.apk;PRESIGNED
