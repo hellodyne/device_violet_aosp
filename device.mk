@@ -265,6 +265,9 @@ LOCAL_KERNEL := device/xiaomi/violet-kernel/Image.gz-dtb
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
+# Kernel Modules
+BOARD_VENDOR_KERNEL_MODULES += $(wildcard device/xiaomi/violet-kernel/modules/*.ko)
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.violet
