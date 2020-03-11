@@ -55,8 +55,8 @@ fi
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${MK_ROOT}" true "${CLEAN_VENDOR}"
 
-extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
-        "${KANG}" --section "${SECTION}"
+#extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
+#        "${KANG}" --section "${SECTION}"
 
 extract "${MY_DIR}/proprietary-files-coral.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"

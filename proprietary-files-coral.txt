@@ -91,6 +91,9 @@ product/lib64/libaptXHD_encoder.so
 # FM - from coral-user 10 QQ1B.200205.002 6084387-release-keys
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
+# IRQ balance - from coral-user 10 QQ1B.200205.002 6084387-release-keys
+vendor/bin/msm_irqbalance
+
 # DPM - from coral-user 10 QQ1B.200205.002 6084387-release-keys
 lib64/libdiag_system.so
 vendor/bin/dpmQmiMgr

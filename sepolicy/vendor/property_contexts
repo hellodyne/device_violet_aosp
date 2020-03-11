@@ -9,6 +9,13 @@ vidhance.                   u:object_r:vendor_camera_prop:s0
 ro.miui.                    u:object_r:exported_default_prop:s0
 ro.cust.test                u:object_r:exported_default_prop:s0
 
+# Power
+vendor.powerhal.state       u:object_r:power_prop:s0
+vendor.powerhal.audio       u:object_r:power_prop:s0
+vendor.powerhal.lpm         u:object_r:power_prop:s0
+vendor.powerhal.init        u:object_r:power_prop:s0
+vendor.powerhal.rendering   u:object_r:power_prop:s0
+
 # Fingerprint
 persist.vendor.sys.fp.      u:object_r:vendor_fp_prop:s0
 persist.vendor.fpc.         u:object_r:vendor_fp_prop:s0
