@@ -1,9 +1,32 @@
+# Radio
+persist.vendor.radio.RATE_ADAPT_ENABLE          u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.ROTATION_ENABLE            u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.VT_ENABLE                  u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.VT_HYBRID_ENABLE           u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.videopause.mode            u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.smlog_switch               u:object_r:vendor_radio_prop:s0
+ro.vendor.radio.log_loc                         u:object_r:vendor_radio_prop:s0
+ro.vendor.radio.log_prefix                      u:object_r:vendor_radio_prop:s0
+
 # Camera
 persist.camera.             u:object_r:vendor_camera_prop:s0
 camera.                     u:object_r:vendor_camera_prop:s0
 ro.boot.hwc                 u:object_r:vendor_camera_prop:s0
 vendor.camera.              u:object_r:vendor_camera_prop:s0
 vidhance.                   u:object_r:vendor_camera_prop:s0
+
+# Audio
+vendor.audio.adm.buffering.ms                   u:object_r:vendor_audio_prop:s0
+vendor.audio.volume.listener.dump               u:object_r:vendor_audio_prop:s0
+vendor.audio.volume.headset.gain.depcal         u:object_r:vendor_audio_prop:s0
+vendor.audio_hal.in_period_size                 u:object_r:vendor_audio_prop:s0
+vendor.audio_hal.period_multiplier              u:object_r:vendor_audio_prop:s0
+vendor.audio_hal.period_size                    u:object_r:vendor_audio_prop:s0
+
+persist.vendor.audio.fluence.speaker            u:object_r:vendor_audio_prop:s0
+persist.vendor.audio.fluence.voicecall          u:object_r:vendor_audio_prop:s0
+persist.vendor.audio.fluence.voicecomm          u:object_r:vendor_audio_prop:s0
+persist.vendor.audio.fluence.voicerec           u:object_r:vendor_audio_prop:s0
 
 # Miui
 ro.miui.                    u:object_r:exported_default_prop:s0
@@ -21,6 +44,9 @@ persist.vendor.sys.fp.      u:object_r:vendor_fp_prop:s0
 persist.vendor.fpc.         u:object_r:vendor_fp_prop:s0
 persist.sys.fp.             u:object_r:vendor_fp_prop:s0
 ro.boot.fpsensor            u:object_r:vendor_fp_prop:s0
+
+# EcoService
+vendor.media.ecoservice.log. u:object_r:ecoservice_prop:s0
 
 # Thermal
 sys.thermal.                u:object_r:thermal_engine_prop:s0

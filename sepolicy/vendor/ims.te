@@ -1,0 +1,5 @@
+set_prop(ims, ctl_start_prop);
+set_prop(ims, ctl_stop_prop);
+
+# Fix this later diag shoudn't be allowed on user build
+diag_use(ims)
