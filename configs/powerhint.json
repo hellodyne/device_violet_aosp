@@ -377,25 +377,25 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "SchedFeatures",
-      "Duration": 1500,
+      "Duration": 2500,
       "Value": "NO_ENERGY_AWARE"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
-      "Duration": 1500,
+      "Duration": 2500,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 1500,
+      "Duration": 2500,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 1500,
+      "Duration": 2500,
       "Value": "9999999"
     },
     {
@@ -425,7 +425,7 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWMinFreq",
-      "Duration": 1500,
+      "Duration": 2500,
       "Value": "12298"
     },
     {
@@ -449,13 +449,13 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "LLCCBWMinFreq",
-      "Duration": 1500,
+      "Duration": 2500,
       "Value": "6881"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "L3BigClusterMinFreq",
-      "Duration": 1500,
+      "Duration": 2500,
       "Value": "1363200000"
     },
     {
