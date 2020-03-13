@@ -106,6 +106,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.ccodec=4 \
     debug.stagefright.omx_default_rank=512
 
+# Enable modem logging
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.radio.log_loc="/data/vendor/modem_dump" \
+    ro.vendor.radio.log_prefix="modem_log_"
+
 # Disable OMX
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.media.omx=0
