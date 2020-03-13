@@ -415,6 +415,9 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.mdt
 vendor/firmware/ipa_fws.elf
 
+# CHRE
+vendor/bin/chre
+
 # Sensors - from violet-user 9 PKQ1.181203.001 9.9.3 release-keys
 vendor/bin/sensors.qti|4aa3e3367008cbe0fc0c26f87166e119b897395f
 vendor/lib/libsensorslog.so|e02ee4a71e50edabb94b96d7f7863d97e39b8b69
