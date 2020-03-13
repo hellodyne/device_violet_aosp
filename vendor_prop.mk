@@ -145,11 +145,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Set lmkd options
 PRODUCT_PRODUCT_PROPERTIES += \
-	ro.config.low_ram=false \
-	ro.lmk.kill_heaviest_task=true \
-	ro.lmk.kill_timeout_ms=100 \
-	ro.lmk.use_minfree_levels=true \
-	ro.lmk.log_stats=true
+   ro.config.low_ram=false \
+   ro.lmk.kill_heaviest_task=true \
+   ro.lmk.kill_timeout_ms=100 \
+   ro.lmk.use_minfree_levels=true \
+   ro.lmk.log_stats=true
 
 # Keystore
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -194,6 +194,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.snapshot_enabled=0 \
     persist.vendor.radio.snapshot_timer=0
+
+# ZRAM writeback
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.zram.mark_idle_delay_mins=60 \
+    ro.zram.first_wb_delay_mins=180 \
+    ro.zram.periodic_wb_delay_hours=24
 
 # Subsystem silent restart
 PRODUCT_PROPERTY_OVERRIDES += \
