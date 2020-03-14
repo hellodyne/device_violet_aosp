@@ -112,8 +112,8 @@
       "Name": "TASchedtuneBoost",
       "Path": "/dev/stune/top-app/schedtune.boost",
       "Values": [
-        "30",
-        "10"
+        "10",
+        "5"
       ],
       "ResetOnInit": true
     },
@@ -342,7 +342,7 @@
       "PowerHint": "INTERACTION",
       "Node": "TASchedtuneBoost",
       "Duration": 0,
-      "Value": "30"
+      "Value": "10"
     },
     {
       "PowerHint": "INTERACTION",
@@ -377,25 +377,25 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "SchedFeatures",
-      "Duration": 2500,
+      "Duration": 5000,
       "Value": "NO_ENERGY_AWARE"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
-      "Duration": 2500,
+      "Duration": 5000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 2500,
+      "Duration": 5000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 2500,
+      "Duration": 5000,
       "Value": "9999999"
     },
     {
@@ -425,7 +425,7 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWMinFreq",
-      "Duration": 2500,
+      "Duration": 5000,
       "Value": "12298"
     },
     {
@@ -449,13 +449,13 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "LLCCBWMinFreq",
-      "Duration": 2500,
+      "Duration": 5000,
       "Value": "6881"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "L3BigClusterMinFreq",
-      "Duration": 2500,
+      "Duration": 5000,
       "Value": "1363200000"
     },
     {
