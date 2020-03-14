@@ -73,6 +73,10 @@ vendor/lib64/libhfp.so
 vendor/lib64/libsndmonitor.so
 vendor/lib64/libssrec.so
 
+# Audio - Soundfx
+vendor/lib/soundfx/libvolumelistener.so
+vendor/lib64/soundfx/libvolumelistener.so
+
 # Audio - hardware
 vendor/lib/hw/audio.primary.sm6150.so
 vendor/lib/libaudio_log_utils.so
