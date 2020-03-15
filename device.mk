@@ -162,7 +162,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.sm6150 \
     libtinyxml \
     libvulkan \
-    lights.sm6150 \
     memtrack.sm6150 \
     vendor.qti.hardware.display.allocator-service
 
