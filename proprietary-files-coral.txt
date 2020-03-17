@@ -479,6 +479,9 @@ vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libqdma_file_agent.so
 
-# Hotword enrollment
+# Hotword enrollment - from coral-user 10 QQ1B.200205.002 6084387-release-keys
 -product/priv-app/HotwordEnrollmentXGoogleHEMIDELTA/HotwordEnrollmentXGoogleHEMIDELTA.apk;PRESIGNED
 -product/priv-app/HotwordEnrollmentOKGoogleHEMIDELTA/HotwordEnrollmentOKGoogleHEMIDELTA.apk;PRESIGNED
+
+# Thermal - from coral-user 10 QQ1B.200205.002 6084387-release-keys
+vendor/bin/thermal-engine

@@ -550,15 +550,5 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Thermal - from violet-user 9 PKQ1.181203.001 9.9.3 release-keys
--vendor/lib/libthermalclient.so|01de7050300c43f8e437c4cfcda2f657c691c9fe
--vendor/lib64/libthermalclient.so|ee0ac834541261f8fb8712c117b316d2fa68a474
-vendor/bin/thermal-engine|d1517cc983acede5d0dff1bf45c61b1883727606
-vendor/etc/thermal-engine-map.conf|b7ecee933855db667951773231e5c0d70d7bee39
-vendor/etc/thermal-engine-normal.conf|0f952860f1f9fca9b724fc7121fc761629abe4fe
-vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
-vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
-vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
-
 # Wifi - from violet-user 9 PKQ1.181203.001 9.9.3 release-keys
 vendor/bin/cnss-daemon|82f2138c7954244744c16d207551bca83b0b475a

@@ -331,7 +331,7 @@ on property:init.svc.vendor.per_mgr=running
 on property:sys.shutdown.requested=*
     stop per_proxy
 
-service vendor.thermal-engine /vendor/bin/thermal-engine
+service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/thermal-engine-normal_mode.conf
    class main
    user root
    socket thermal-send-client stream 0666 system system
