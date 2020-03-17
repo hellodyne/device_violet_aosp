@@ -4,6 +4,9 @@ type thermal_engine_prop, property_type;
 # Insmod
 type vendor_device_prop, property_type;
 
+# Thermal HAL
+type vendor_thermal_prop, property_type;
+
 # PowerHal
 type power_prop, property_type;
 
