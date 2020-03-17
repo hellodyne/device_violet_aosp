@@ -113,12 +113,6 @@ on fs
 
     restorecon_recursive /mnt/vendor/persist
 
-    chmod 0664 /sys/class/thermal/thermal_message/sconfig
-    chown system system /sys/class/thermal/thermal_message/sconfig
-
-    chmod 0666 /sys/class/thermal/thermal_message/temp_state
-    chown root root /sys/class/thermal/thermal_message/temp_state
-
 on post-fs
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
