@@ -225,7 +225,6 @@
       "Name": "CameraHalCpuset",
       "Path": "/dev/cpuset/camera-daemon/cpus",
       "Values": [
-        "0-5",
         "0-7"
       ],
       "ResetOnInit": true
@@ -274,6 +273,7 @@
       "Path": "vendor.powerhal.state",
       "Values": [
         "CAMERA_STREAMING",
+        "CAMERA_STREAMING_1080P",
         "CAMERA_STREAMING_4K",
         "CAMERA_STREAMING_60FPS",
         "CAMERA_STREAMING_SECURE",
@@ -696,7 +696,7 @@
       "PowerHint": "CAMERA_STREAMING_SECURE",
       "Node": "CameraHalCpuset",
       "Duration": 0,
-      "Value": "0-5"
+      "Value": "0-7"
     },
     {
       "PowerHint": "CAMERA_SHOT",
