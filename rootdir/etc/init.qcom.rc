@@ -131,7 +131,16 @@ on post-fs
     write /dev/ipa 1
 
 on late-fs
+    start surfaceflinger
+    start bootanim
+    start vendor.hwcomposer-2-3
+    start vendor.configstore-hal
+    start vendor.qti.hardware.display.allocator
+    start vendor.light-hal-2-0
+
+    # Wait for keymaster hal
     exec_start wait_for_keymaster
+
     mount_all /vendor/etc/fstab.qcom --late
 
     # Boot time fs tune
