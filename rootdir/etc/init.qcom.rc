@@ -99,6 +99,12 @@ on late-init
     chown system system /sys/devices/virtual/thermal/tz-by-name/usbc-therm-monitor/trip_point_0_hyst
     chown system system /sys/devices/virtual/thermal/tz-by-name/soc/mode
 
+    # Permission for lights driver
+    chown system system /sys/class/backlight/panel0-backlight/brightness
+
+    # Permission for gesture node
+    chown system system /proc/tp_gesture
+
 on fs
     mount_all /vendor/etc/fstab.qcom --early
 
@@ -227,13 +233,6 @@ on early-boot
 
     chown system system /mnt/vendor/persist/data/pfm/licenses
     chmod 0775 /mnt/vendor/persist/data/pfm/licenses
-
-    # D2TW
-    chown system system /proc/tp_gesture
-    chmod 0660 /proc/tp_gesture
-
-    # Permission for lights driver
-    chown system system /sys/class/backlight/panel0-backlight/brightness
 
     # Wait for insmod_sh to finish all modules
     wait_for_prop vendor.all.modules.ready 1
