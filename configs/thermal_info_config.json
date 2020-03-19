@@ -132,6 +132,10 @@
         {
             "Name":"cx",
             "Type":"COMPONENT"
+        },
+        {
+            "Name":"battery",
+            "Type":"BATTERY"
         }
     ]
 }
