@@ -48,9 +48,7 @@
       "Name": "GPUMaxFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq",
       "Values": [
-        "845000000",
-        "550000000",
-        "290000000"
+        "845000000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -768,7 +766,7 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMaxFreq",
       "Duration": 0,
-      "Value": "550000000"
+      "Value": "845000000"
     },
     {
       "PowerHint": "TPU_BOOST",
