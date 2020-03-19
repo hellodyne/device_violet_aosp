@@ -308,7 +308,7 @@ vendor/bin/hvdcp_opti
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
 # Consumerir
-vendor/lib64/hw/consumerir.default.so
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
 
 # Display calibration
 vendor/etc/qdcm_calib_data_ft8719_video_mode_dsi_tianma_panel.xml

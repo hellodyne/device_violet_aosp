@@ -136,7 +136,6 @@ on late-fs
     start vendor.hwcomposer-2-3
     start vendor.configstore-hal
     start vendor.qti.hardware.display.allocator
-    start vendor.light-hal-2-0
 
     # Wait for keymaster hal
     exec_start wait_for_keymaster

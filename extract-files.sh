@@ -55,16 +55,19 @@ fi
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${MK_ROOT}" true "${CLEAN_VENDOR}"
 
-#extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
-#        "${KANG}" --section "${SECTION}"
-
-extract "${MY_DIR}/proprietary-files-coral.txt" "${SRC}" \
+extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
+
+#extract "${MY_DIR}/proprietary-files-coral.txt" "${SRC}" \
+#        "${KANG}" --section "${SECTION}"
 
 BLOB_ROOT="${MK_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary"
 
 # Adreno
 patchelf --set-soname vulkan.sm6150.so "${BLOB_ROOT}/vendor/lib64/hw/vulkan.sm6150.so"
 patchelf --set-soname vulkan.sm6150.so "${BLOB_ROOT}/vendor/lib/hw/vulkan.sm6150.so"
+
+# IR
+patchelf --set-soname consumerir.sm6150.so "${BLOB_ROOT}/vendor/lib64/hw/consumerir.sm6150.so"
 
 "${MY_DIR}/setup-makefiles.sh"
