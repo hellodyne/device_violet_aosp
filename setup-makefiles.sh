@@ -32,7 +32,7 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${MK_ROOT}"
 write_headers
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
-write_makefiles "${MY_DIR}/proprietary-files-coral.txt" true
+write_makefiles "${MY_DIR}/proprietary-files-flame.txt" true
 
 # Finish
 write_footers
