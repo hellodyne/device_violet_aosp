@@ -483,5 +483,9 @@ vendor/lib64/libqdma_file_agent.so
 -product/priv-app/HotwordEnrollmentXGoogleHEMIDELTA/HotwordEnrollmentXGoogleHEMIDELTA.apk;PRESIGNED
 -product/priv-app/HotwordEnrollmentOKGoogleHEMIDELTA/HotwordEnrollmentOKGoogleHEMIDELTA.apk;PRESIGNED
 
+# SSR - from flame-user 10 QQ2A.200305.003 6156912-release-keys
+vendor/bin/ssr_setup
+vendor/bin/subsystem_ramdump
+
 # Thermal - from flame-user 10 QQ2A.200305.003 6156912-release-keys
 vendor/bin/thermal-engine
