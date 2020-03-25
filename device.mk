@@ -331,6 +331,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.insmod.sh \
+    init.qcom.usb.sh \
     init.msm.usb.configfs.rc \
     init.qcom.logging.rc \
     init.qcom.mpssrfs.rc \
