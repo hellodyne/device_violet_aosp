@@ -1,0 +1,5 @@
+# Wi-Fi
+type hal_wifi_ext_hwservice, hwservice_manager_type;
+
+# Radio
+type hal_radioext_hwservice, hwservice_manager_type;

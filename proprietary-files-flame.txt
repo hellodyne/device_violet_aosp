@@ -411,8 +411,6 @@ vendor/lib64/libsystem_health_mon.so
 vendor/lib64/qcrild_librilutils.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
-vendor/lib64/vendor.google.radioext@1.0.so
-vendor/lib64/vendor.google.radioext@1.1.so
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
@@ -476,6 +474,8 @@ vendor/lib64/lib-rtpsl.so
 vendor/lib64/lib-siputility.so
 vendor/lib64/lib-uceservice.so
 vendor/lib64/librcc.so
+vendor/lib64/vendor.qti.googleext.imsext@1.0.so
+vendor/lib64/vendor.qti.googleext.imsext@2.0.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so
@@ -486,8 +486,14 @@ vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib64/vendor.qti.imsrtpservice@2.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@2.0.so
-vendor/lib64/vendor.qti.googleext.imsext@1.0.so
-vendor/lib64/vendor.qti.googleext.imsext@2.0.so
+
+# Radio-Ext - from flame-user 10 QQ2A.200305.003 6156912-release-keys
+vendor/bin/hw/vendor.google.radioext@1.0-service
+vendor/etc/init/vendor.google.radioext@1.0-service.rc
+vendor/lib/vendor.google.radioext@1.0.so
+vendor/lib/vendor.google.radioext@1.1.so
+vendor/lib64/vendor.google.radioext@1.0.so
+vendor/lib64/vendor.google.radioext@1.1.so
 
 # Cacert - from flame-user 10 QQ2A.200305.003 6156912-release-keys
 -vendor/app/CACertService/CACertService.apk
@@ -530,3 +536,8 @@ vendor/bin/subsystem_ramdump
 
 # Thermal - from flame-user 10 QQ2A.200305.003 6156912-release-keys
 vendor/bin/thermal-engine
+
+# Wifi - from flame-user 10 QQ2A.200305.003 6156912-release-keys
+vendor/bin/hw/vendor.google.wifi_ext@1.0-service-vendor
+vendor/etc/init/vendor.google.wifi_ext@1.0-service.rc
+vendor/lib64/vendor.google.wifi_ext@1.0.so
