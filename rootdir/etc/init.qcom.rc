@@ -26,6 +26,7 @@ on early-init
 
     # Disable EAS
     write /sys/kernel/debug/sched_features NO_ENERGY_AWARE
+    mount_all /vendor/etc/fstab.persist --early
 
 on init
     # Disable powersaving

@@ -329,6 +329,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    fstab.persist \
     fstab.qcom \
     init.insmod.sh \
     init.qcom.usb.sh \
