@@ -361,6 +361,7 @@ vendor/lib64/libqmi_vs-google-1.so
 product/etc/permissions/UimService.xml
 product/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml
 product/etc/permissions/embms.xml
+product/etc/permissions/org_codeaurora_ims.xml
 product/etc/permissions/qcrilhook.xml
 product/etc/permissions/telephonyservice.xml
 product/etc/permissions/uimremoteclient.xml
