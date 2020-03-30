@@ -19,7 +19,7 @@
         "1593600",
         "1209600",
         "748800",
-        "0"
+        "576000"
       ],
       "ResetOnInit": true
     },
@@ -40,8 +40,7 @@
       "Values": [
         "9999999",
         "1017600",
-        "768000",
-        "0"
+        "768000"
       ],
       "ResetOnInit": true
     },
@@ -49,7 +48,9 @@
       "Name": "GPUMaxFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq",
       "Values": [
-        "845000000"
+        "845000000",
+        "745000000",
+        "700000000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -58,10 +59,8 @@
       "Name": "GPUMinFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/min_freq",
       "Values": [
-        "700000000",
         "550000000",
         "435000000",
-        "427000000",
         "290000000"
       ],
       "ResetOnInit": true
@@ -104,15 +103,6 @@
       "Values": [
         "10000",
         "80"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "TASchedtuneBoost",
-      "Path": "/dev/stune/top-app/schedtune.boost",
-      "Values": [
-        "10",
-        "5"
       ],
       "ResetOnInit": true
     },
@@ -323,7 +313,7 @@
       "PowerHint": "SUSTAINED_PERFORMANCE",
       "Node": "GPUMaxFreq",
       "Duration": 0,
-      "Value": "845000000"
+      "Value": "745000000"
     },
     {
       "PowerHint": "INTERACTION",
@@ -336,12 +326,6 @@
       "Node": "CPULittleClusterMinFreq",
       "Duration": 100,
       "Value": "748800"
-    },
-    {
-      "PowerHint": "INTERACTION",
-      "Node": "TASchedtuneBoost",
-      "Duration": 0,
-      "Value": "10"
     },
     {
       "PowerHint": "INTERACTION",
