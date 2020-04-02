@@ -325,6 +325,8 @@ vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
 # Perf
+vendor/lib/libqti-perfd-client.so
+vendor/lib/vendor.qti.hardware.perf@2.0.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/vendor.qti.hardware.perf@2.0.so
 
