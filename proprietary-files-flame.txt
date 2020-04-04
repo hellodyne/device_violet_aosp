@@ -54,6 +54,7 @@ vendor/lib64/libqtigef.so
 # Audio - Extensions - from flame-user 10 QQ2A.200305.003 6156912-release-keys
 vendor/lib/liba2dpoffload.so
 vendor/lib/libbatterylistener.so
+vendor/lib/libcirrusspkrprot.so
 vendor/lib/libcomprcapture.so
 vendor/lib/libexthwplugin.so
 vendor/lib/libhdmiedid.so
@@ -62,6 +63,7 @@ vendor/lib/libhfp.so
 vendor/lib/libsndmonitor.so
 vendor/lib64/liba2dpoffload.so
 vendor/lib64/libbatterylistener.so
+vendor/lib64/libcirrusspkrprot.so
 vendor/lib64/libcomprcapture.so
 vendor/lib64/libexthwplugin.so
 vendor/lib64/libhdmiedid.so
