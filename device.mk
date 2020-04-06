@@ -11,7 +11,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/violet/violet-vendor.mk)
 $(call inherit-product-if-exists, packages/apps/GoogleCamera/gcam.mk)
 
 # Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Utils
 $(call inherit-product, $(LOCAL_PATH)/utils.mk)

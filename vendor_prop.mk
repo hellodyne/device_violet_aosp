@@ -130,6 +130,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1
 
+# Override heap growth limit due to high display density on device
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.heapgrowthlimit=256m
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds \
