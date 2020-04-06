@@ -35,6 +35,10 @@ on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
+    # start qseecomd early as we mount system/ vendor/ early
+    # vold needs keymaster that needs qseecomd
+    start vendor.qseecomd
+
     # Loading kernel modules in background
     start insmod_sh
 
@@ -320,6 +324,11 @@ on property:init.svc.vendor.per_mgr=running
 
 on property:sys.shutdown.requested=*
     stop per_proxy
+
+service vendor.qseecomd /vendor/bin/qseecomd
+    class core
+    user root
+    group root
 
 service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/thermal-engine-normal_mode.conf
    class main

@@ -165,6 +165,37 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 # IRQ balance - from flame-user 10 QQ2A.200305.003 6156912-release-keys
 vendor/bin/msm_irqbalance
 
+# DRM - from flame-user 10 QQ2A.200305.003 6156912-release-keys
+vendor/bin/qseecomd
+vendor/lib/libGPreqcancel.so
+vendor/lib/libGPreqcancel_svc.so
+vendor/lib/libQSEEComAPI.so
+vendor/lib/libSecureUILib.so
+vendor/lib/libStDrvInt.so
+vendor/lib/libdrmfs.so
+vendor/lib/libdrmtime.so
+vendor/lib/libops.so
+vendor/lib/libqisl.so
+vendor/lib/librpmb.so
+vendor/lib/libsecureui.so
+vendor/lib/libsecureui_svcsock.so
+vendor/lib/libspl.so
+vendor/lib/libssd.so
+vendor/lib64/libGPreqcancel.so
+vendor/lib64/libGPreqcancel_svc.so
+vendor/lib64/libQSEEComAPI.so
+vendor/lib64/libSecureUILib.so
+vendor/lib64/libStDrvInt.so
+vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so
+vendor/lib64/libops.so
+vendor/lib64/libqisl.so
+vendor/lib64/librpmb.so
+vendor/lib64/libsecureui.so
+vendor/lib64/libsecureui_svcsock.so
+vendor/lib64/libspl.so
+vendor/lib64/libssd.so
+
 # DPM - from flame-user 10 QQ2A.200305.003 6156912-release-keys
 lib64/libdiag_system.so
 vendor/bin/dpmQmiMgr
