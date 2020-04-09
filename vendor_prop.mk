@@ -1,39 +1,24 @@
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
+    aaudio.hw_burst_min_usec=2000 \
     af.fast_track_multiplier=1 \
-    persist.vendor.audio.avs.afe_api_version=2 \
-    persist.vendor.audio.ras.enabled=false \
-    persist.vendor.audio.spv3.enable=true \
-    vendor.audio.adm.buffering.ms=2 \
-    vendor.audio.dolby.ds2.enabled=false \
-    vendor.audio.dolby.ds2.hardbypass=false \
-    vendor.audio.flac.sw.decoder.24bit=true \
-    vendor.audio.hw.aac.encoder=true \
-    vendor.audio.offload.buffer.size.kb=32 \
-    vendor.audio.offload.gapless.enabled=true \
-    vendor.audio.offload.multiaac.enable=true \
-    vendor.audio.offload.multiple.enabled=false \
-    vendor.audio.offload.passthrough=false \
-    vendor.audio.offload.track.enable=false \
-    vendor.audio.parser.ip.buffer.size=262144 \
-    vendor.audio.safx.pbe.enabled=false \
-    vendor.audio.tunnel.encode=false \
-    vendor.audio.use.sw.alac.decoder=true \
-    vendor.audio.use.sw.ape.decoder=true \
-    vendor.audio.volume.headset.gain.depcal=true \
-    vendor.audio_hal.in_period_size=144 \
-    vendor.audio_hal.period_multiplier=3 \
-    vendor.audio_hal.period_size=192 \
+    vendor.audio.adm.buffering.ms=3 \
     vendor.voice.path.for.pcm.voip=true
 
 # Audio Features
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.a2dp_offload.enable=true \
-    vendor.audio.feature.afe_proxy.enable=true \
+    vendor.audio.feature.anc_headset.enable=true \
     vendor.audio.feature.hfp.enable=true \
     vendor.audio.feature.ras.enable=true \
+    vendor.audio.feature.external_dsp.enable=false \
+    vendor.audio.feature.external_speaker.enable=false \
+    vendor.audio.feature.maxx_audio.enable=false \
+    vendor.audio.feature.hwdep_cal.enable=false \
+    vendor.audio.feature.incall_music.enable=true \
+    vendor.audio.feature.spkr_prot.enable=false \
     vendor.audio.feature.usb_offload.enable=true \
-    vendor.audio.feature.usb_offload_burst_mode.enable=true \
+    vendor.audio.feature.audiozoom.enable=true \
     vendor.audio.feature.snd_mon.enable=true
 
 # Audio fluence, ns, aec property, voice and media volume steps
