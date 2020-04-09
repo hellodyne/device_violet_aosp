@@ -173,6 +173,10 @@ PRODUCT_PACKAGES += \
     memtrack.sm6150 \
     vendor.qti.hardware.display.allocator-service
 
+# FOSS Config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/FOSSConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/FOSSConfig.xml
+
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
 

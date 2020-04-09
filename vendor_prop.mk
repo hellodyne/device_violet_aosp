@@ -80,10 +80,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_kernel_idle_timer=true
 
-# Graphics - Sensortype / QDCM
+# Graphics - Sensortype / Paneltype / QDCM
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.display.paneltype=2 \
     ro.vendor.display.sensortype=2 \
     vendor.display.qdcm.mode_combine=1
+
+# Graphics - Foss
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.display.foss=1 \
+    vendor.display.foss.config=1 \
+    vendor.display.foss.config_path=/vendor/etc/FOSSConfig.xml
 
 # Graphics - Color
 PRODUCT_PROPERTY_OVERRIDES += \
