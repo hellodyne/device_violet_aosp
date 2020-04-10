@@ -10,18 +10,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Audio Features
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.a2dp_offload.enable=true \
-    vendor.audio.feature.anc_headset.enable=true \
-    vendor.audio.feature.hfp.enable=true \
-    vendor.audio.feature.ras.enable=true \
+    vendor.audio.feature.concurrent_capture.enable=false \
     vendor.audio.feature.external_dsp.enable=false \
     vendor.audio.feature.external_speaker.enable=false \
-    vendor.audio.feature.maxx_audio.enable=false \
+    vendor.audio.feature.hfp.enable=true \
     vendor.audio.feature.hwdep_cal.enable=false \
     vendor.audio.feature.incall_music.enable=true \
+    vendor.audio.feature.maxx_audio.enable=false \
+    vendor.audio.feature.ras.enable=true \
+    vendor.audio.feature.snd_mon.enable=true \
     vendor.audio.feature.spkr_prot.enable=false \
-    vendor.audio.feature.usb_offload.enable=true \
-    vendor.audio.feature.audiozoom.enable=true \
-    vendor.audio.feature.snd_mon.enable=true
+    vendor.audio.feature.usb_offload.enable=true
 
 # Audio fluence, ns, aec property, voice and media volume steps
 PRODUCT_PROPERTY_OVERRIDES += \
