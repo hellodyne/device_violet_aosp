@@ -115,6 +115,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
    ro.lmk.use_minfree_levels=true \
    ro.lmk.log_stats=true
 
+# Sdcardfs
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sys.sdcardfs=1
+
 # Keystore
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore_desede=true
