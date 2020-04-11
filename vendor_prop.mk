@@ -63,6 +63,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.media.omx=0
 
+# Disable SPU usage
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.gatekeeper.disable_spu=true
+
 # Create input surface on the framework side
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.c2inputsurface=-1
