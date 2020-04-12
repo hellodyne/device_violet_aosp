@@ -587,6 +587,9 @@ vendor/lib/vendor.google.radioext@1.1.so
 vendor/lib64/vendor.google.radioext@1.0.so
 vendor/lib64/vendor.google.radioext@1.1.so
 
+# Radio-Ext - Bluetooth Stats - from flame-user 10 QQ2A.200305.003 6156912-release-keys
+vendor/etc/bluetooth_power_limits.csv
+
 # Cacert - from flame-user 10 QQ2A.200305.003 6156912-release-keys
 -vendor/app/CACertService/CACertService.apk
 vendor/lib/libcacertclient.so
