@@ -154,6 +154,10 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 # Bluetooth - Audio - from flame-user 10 QQ2A.200305.003 6156912-release-keys
 vendor/lib/btaudio_offload_if.so
 vendor/lib64/btaudio_offload_if.so
+vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
+vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
+vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
+vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 
 # Bluetooth (aptX) - from flame-user 10 QQ2A.200305.003 6156912-release-keys
 product/lib64/libaptX_encoder.so
