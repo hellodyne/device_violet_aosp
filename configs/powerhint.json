@@ -262,7 +262,6 @@
       "Path": "vendor.powerhal.state",
       "Values": [
         "CAMERA_STREAMING",
-        "CAMERA_STREAMING_1080P",
         "CAMERA_STREAMING_4K",
         "CAMERA_STREAMING_60FPS",
         "CAMERA_STREAMING_SECURE",
