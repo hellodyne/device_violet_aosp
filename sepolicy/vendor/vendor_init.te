@@ -1,7 +1,4 @@
 set_prop(vendor_init, vendor_thermal_prop)
 set_prop(vendor_init, power_prop)
 
-# Allow vendor_init to relabel unlabeled files and directories
-allow vendor_init unlabeled:{ dir file } { getattr relabelfrom };
-
 allow vendor_init debugfs_sched_features:file write;
