@@ -91,7 +91,7 @@
             "Multiplier":0.001
         },
         {
-            "Name":"sdm-therm",
+            "Name":"sdm-therm-monitor",
             "Type":"SKIN",
             "HotThreshold":[
                 "NAN",
