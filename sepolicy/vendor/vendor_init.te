@@ -1,4 +1,12 @@
+# Thermal Hal - Prop
 set_prop(vendor_init, vendor_thermal_prop)
+
+# Power Hal - Prop
 set_prop(vendor_init, power_prop)
 
+# Power Hal - Sched
 allow vendor_init proc_sched_energy_aware:file w_file_perms;
+
+# Zram - Swap/Dirty Values
+allow vendor_init proc_swappiness:file w_file_perms;
+allow vendor_init proc_dirty:file w_file_perms;
