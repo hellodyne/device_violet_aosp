@@ -1,6 +1,6 @@
 # Power
 type sysfs_power_stats, sysfs_type, fs_type;
-type debugfs_sched_features, debugfs_type, fs_type;
+type proc_sched_energy_aware, proc_type, fs_type;
 
 # Power - D2TW
 type proc_touchpanel, fs_type, proc_type;

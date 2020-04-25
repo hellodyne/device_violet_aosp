@@ -9,7 +9,7 @@ allow hal_power_default {
     sysfs_kgsl
     sysfs_devfreq
     sysfs_devices_system_cpu
-    debugfs_sched_features
+    proc_sched_energy_aware
     proc_touchpanel
 }:file rw_file_perms;
 
