@@ -1,2 +1,8 @@
+# Ramoops
+type ramoops_device, dev_type;
+
+# Fingerprint
 type fingerprint_device, dev_type;
+
+# IR
 type lirc_device, dev_type;

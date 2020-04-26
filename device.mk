@@ -355,6 +355,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qti.chg_policy.sh \
     init.radio.sh \
+    init.ramoops.sh \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 

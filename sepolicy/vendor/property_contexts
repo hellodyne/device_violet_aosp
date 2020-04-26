@@ -8,6 +8,9 @@ persist.vendor.radio.smlog_switch               u:object_r:vendor_radio_prop:s0
 ro.vendor.radio.log_loc                         u:object_r:vendor_radio_prop:s0
 ro.vendor.radio.log_prefix                      u:object_r:vendor_radio_prop:s0
 
+# ramoops
+vendor.ramoops.             u:object_r:vendor_ramoops_prop:s0
+
 # Camera
 persist.camera.             u:object_r:vendor_camera_prop:s0
 camera.                     u:object_r:vendor_camera_prop:s0

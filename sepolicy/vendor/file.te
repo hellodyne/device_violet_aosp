@@ -17,5 +17,9 @@ type sysfs_msm_boot, fs_type, sysfs_type;
 # Radio
 type modem_stat_data_file, file_type, data_file_type;
 
+# Ramoops
+type sysfs_pstore, sysfs_type, fs_type;
+type ramoops_vendor_data_file, file_type, data_file_type, mlstrustedobject;
+
 # Zram - Swappiness
 type proc_swappiness, proc_type, fs_type;

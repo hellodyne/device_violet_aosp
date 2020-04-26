@@ -1,3 +1,6 @@
+# Ramoops
+type vendor_ramoops_prop, property_type;
+
 # Thermal
 type thermal_engine_prop, property_type;
 
