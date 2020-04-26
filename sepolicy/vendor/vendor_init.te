@@ -4,6 +4,9 @@ set_prop(vendor_init, vendor_thermal_prop)
 # Power Hal - Prop
 set_prop(vendor_init, power_prop)
 
+# CND - Prop
+set_prop(vendor_init, cnd_prop)
+
 # Power Hal - Sched
 allow vendor_init proc_sched_energy_aware:file w_file_perms;
 
